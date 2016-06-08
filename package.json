@@ -4,16 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "unlicensed",
   "dependencies": {
+    "aws-sdk": "^2.2.33",
     "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
     "express": "^4.13.4",
     "helmet": "^0.14.0",
     "jade": "^1.11.0",
-    "less": "^2.6.0"
+    "less": "^2.6.0",
+    "mongoose": "^4.4.2"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
